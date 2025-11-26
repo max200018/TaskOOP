@@ -10,7 +10,7 @@ public:
     virtual double area() const = 0;
 };
 
-//ÊĞÓÃ
+//Circle
 class Circle : public Shape {
     int radius;
 public:
@@ -34,7 +34,7 @@ public:
     }
 };
 
-// ÊÂÀÄĞÀÒ 
+// Square 
 class Square : public Shape {
     int side;
 public:
@@ -53,7 +53,7 @@ public:
     }
 };
 
-// ÏĞßÌÎÓÃÎËÜÍÈÊ 
+// Rectangle 
 class Rectangle : public Shape {
     int width, height;
 public:
@@ -72,7 +72,7 @@ public:
     }
 };
 
-// ÒĞÅÓÃÎËÜÍÈÊ 
+// Triangle 
 class Triangle : public Shape {
     int height;
 public:
